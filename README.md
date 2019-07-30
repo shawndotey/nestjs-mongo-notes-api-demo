@@ -1,10 +1,11 @@
-# TypeScript REST Node Starter
+# Nest.js 'Notes' Demo API
 
-This repository is a `node.js` REST API using `Nest.js` on top of `Express` web framework. Database uses a `mongoDB` server with `mongoose`
+This is a demo of a `node.js` REST API using `Nest.js` on top of `Express` web framework. Database uses a `mongoDB` server with `mongoose`
 
 # Features
 
  - Basic CRUD operations of "Note" taking
+ - Search by query
  
 # Prerequisites
 - Install [Node.js](https://nodejs.org/en/download/)

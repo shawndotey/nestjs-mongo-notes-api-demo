@@ -44,7 +44,6 @@ export class NotesController {
  }
 
  @Delete(':id')
- @HttpCode(202)
  deleteById(@Param('id') id): Promise<string> {
   return this.notesService.removeById(id);
  }
