@@ -15,7 +15,7 @@ This is a demo of a `node.js` REST API using `Nest.js` on top of `Express` web f
 # Getting started
 - Clone the repository
 ```
-git clone https://github.com/maljukan/typescript-node-rest-starter.git <project_name>
+git clone https://github.com/shawndotey/nestjs-mongo-notes-api-demo.git <project_name>
 ```
 - Install dependencies
 ```
@@ -39,12 +39,12 @@ curl -i -d '{"body":"Hello World"}' -H "Content-Type: application/json" -X POST 
 
 Update Note
 ```
-curl -i -d '{"body":"Hello World Updated", "_id":[ ID HERE ]}' -H "Content-Type: application/json" -X PUT http://localhost:3000/api/notes/
+curl -i -d '{"body":"Hello World Updated", "_id":< ID HERE >}' -H "Content-Type: application/json" -X PUT http://localhost:3000/api/notes/
 ```
 
 Update Note by Path
 ```
-curl -i -d '{"body":"Hello World"}' -H "Content-Type: application/json" -X PUT http://localhost:3000/api/notes/[ ID HERE ]
+curl -i -d '{"body":"Hello World"}' -H "Content-Type: application/json" -X PUT http://localhost:3000/api/notes/< ID HERE >
 ```
 
 Get All Notes
@@ -54,15 +54,15 @@ curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET
 
 Get Note by ID
 ```
-curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://localhost:3000/api/notes/[ ID HERE ]
+curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://localhost:3000/api/notes/< ID HERE >
 ```
 
 Get Notes Query Matching Body
 ```
-curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://localhost:3000/api/notes?query=[ MATCHING BODY HERE ]
+curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://localhost:3000/api/notes?query=< MATCHING BODY HERE >
 ```
 
 Delete Note by ID
 ```
-curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X DELETE http://localhost:3000/api/notes/[ ID HERE ]
+curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X DELETE http://localhost:3000/api/notes/< ID HERE >
 ```
