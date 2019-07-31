@@ -65,4 +65,9 @@ curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET
 Delete Note by ID
 ```
 curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X DELETE http://localhost:3000/api/notes/:id
+
+  
+# Further info
+
+Email [me](shawncdotey@gmail.com)
 ```
