@@ -1,4 +1,4 @@
-import { Controller, Post, Body, Get, Param, Put, Delete, Query, HttpCode, Res, HttpStatus } from '@nestjs/common';
+import { Controller, Post, Body, Get, Param, Put, Delete, Query, Res, HttpStatus } from '@nestjs/common';
 import { NotesService } from './notes.service';
 import { Note } from './interface/note.interface';
 import { CreateNoteDto } from './dto/create-note.dto';

@@ -1,5 +1,5 @@
 import { Model } from 'mongoose';
-import { Component, Inject, Logger } from '@nestjs/common';
+import { Component, Inject } from '@nestjs/common';
 import { Note } from './interface/note.interface';
 import { CreateNoteDto } from './dto/create-note.dto';
 import { UpdateNoteDto } from './dto/update-note.dto';
